@@ -10,6 +10,7 @@
 
 > * Foi usado uma validação o if para ver se os campos estavam preenchidos
 > * As funções com outras ações foram chamada dentro do evento de click, assim não deixando uma função com muitas funcionalidades
+> * toda estilização foi feita com html e css, inclusive o formato do cartão!
 
 
 
