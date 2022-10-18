@@ -16,7 +16,7 @@
 <body>
   <main class="page">
     <section class="form-container">
-      <form id="my-form">
+      <form autocomplete=“off” id="my-form">
         <h1>Campinho<span>Cred</span> <img src="./assets/img/logo-aproximação.svg" alt=""></h1>
         <div class="data-content data-content-number">
 
@@ -24,25 +24,21 @@
           <div class="number-division">
             <input type='text' id='number-input-one' maxlength="4">
             <input type='text' id='number-input-two' maxlength="4">
-            <input type='text' id='number-input-three' maxlength="4">
-            <input type='text' id='number-input-4-four' maxlength="4">
+            <input type='text' id="number-input-three" maxlength="4">
+            <input type='text' id='number-input-four' maxlength="4">
           </div>
-
-
-
-
         </div>
         <div class="data-content">
-          <label for="name">NOME DO TITULAR</label>
+          <label autocomplete=“off” for="name">NOME DO TITULAR</label>
           <input type='text' id='name-input'>
         </div>
         <div class="data-content-tow">
           <div class="data-content-min">
-            <label for="number">EXPIRAÇÃO</label>
-            <input type='text' id='validity-input' maxlength="4">
+            <label for="text">EXPIRAÇÃO</label>
+            <input type='text' id='validity-input' maxlength="5">
           </div>
           <div class="data-content-min">
-            <label for="number">CVC</label>
+            <label for="text">CVC</label>
             <input type='text' id='cvc-input' maxlength="3">
           </div>
         </div>
@@ -70,23 +66,23 @@
         </div>
         <!-------campo-de-números-cartão--------->
         <div class="number-of-card">
-          <p>1234</p>
-          <p>1234</p>
-          <p>1234</p>
-          <p>1234</p>
+          <p class="number-card-one">1234</p>
+          <p class="number-card-two">1234</p>
+          <p class="number-card-three">1234</p>
+          <p class="number-card-four">1234</p>
         </div>
-        <div class="name-card">
+        <div class="name-card-content">
           <p>Nome do titular</p>
-          <h2 class="name-card">ABNER SANTOS</h2>
+          <h2 class="name-card">XXXXXX XXXXXX</h2>
         </div>
         <div class="card-data">
           <div class="card-data-content">
             <p>Expiração</p>
-            <h3 class="validity-card">02/30</h3>
+            <h3 class="validity-card">00/00</h3>
           </div>
           <div class="card-data-content">
             <p>CV</p>
-            <h3 class="cvc-card">235</h3>
+            <h3 class="cvc-card">000</h3>
           </div>
           <img src="./assets/img/campinho-img.png" alt="imagem do campinho digital">
         </div>
