@@ -14,15 +14,21 @@
 body{
   font-size: 1.6rem;
   font-family: var(--ff-inter);
+  background-color: #1E1E1E;
 }
 
 .page {
-  max-width: 90%;
-  padding: 10px;
+  max-width: 65%;
+  padding: 38px;
   margin: 75px auto;
   display: flex;
   color: #E8E8E8;
+  background-color: #323238;
+  justify-content: center;
 }
+
+
+
 
 
 
@@ -30,27 +36,132 @@ body{
 
 
 
-.form-container{
-  background-color: blue;
+
+
+
+
+
+#my-form h1 {
+  color: #959595;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+#my-form h1 span{
+  color: #FFFFFF;
+}
+
+#my-form h1 img{
+  margin-left: 6px;
 }
 
 
-#my-form{
-  background-color: rgb(37, 33, 28);
-}
 
+/*=======FORM-DADOS-NOME/NUMERO=====*/
 .data-content {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 
+.data-content label{
+  font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+   
+
+ .data-content input {
+   width: 30.0rem;
+   height: 4.1rem;
+   background: #121214;
+   border: 1px solid #323238;
+   border-radius: 6px;
+   margin-bottom: 10px;
+   color: #959595;
+   padding: 5px;
+  }
+
+
+
+  /*===EXPEDIÇÃO-CVC======*/
+
+
+
+        .data-content-tow {
+          display: flex;
+          gap: 14px;
+        }
+    
+        .data-content-min label {
+          font-weight: 600;
+          font-size: 1.2rem;
+          line-height: 1.5rem;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
+    
+        .data-content-min input {
+          width: 142.79px;
+          height: 41px;
+          background: #121214;
+          border: 1px solid #323238;
+          border-radius: 6px;
+          color: #959595;
+          padding: 5px;
+        }
+
+
+#my-form button {
+  align-items: center;
+  padding: 16px 0px;
+  width: 300px;
+  height: 49px;
+  background: #42D3FF;
+  border-radius: 6px;
+  border: none;
+  margin-top: 32px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #121212;
+
+  cursor: pointer;
+}
+
+#my-form button:hover{
+  background: #0d9ac5;
+}
+
+  
+
+  
+
+   
+
+
+
+
+          
+
+
+
+    
+  
+  
 
 
 
 
 
-/*-------DATA-CONTAINER-TOW--------*/
+
+
 
 .data-content-tow{
   display: flex;
@@ -64,29 +175,32 @@ body{
 
 /*===========CARD-SECTION=============*/
 .card-section{
-
-  
-  width: 900px;
-  padding: 20px;
+  padding: 2.0rem;
+  width: 45.0rem;
 }
   
+  
 
-.card-content{
-  max-width: 360px;
-  height: 230px;
+  
+.card-content {
+  max-width: 393px;
+  height: 245px;
   background-color: rgb(27, 29, 29);
-  padding: 20px ;
+  padding: 20px;
   border-radius: 6px;
+  margin-top: 37px;
 }
+
+
 
 
 /*-----topo-do-cartão-------*/
 
 .top-card-content{
   display: flex;
-  background-color: black;
   justify-content: space-between;
 }
+
 
 
 /* -----Campo-de-números-cartão---------*/
@@ -103,10 +217,34 @@ body{
   font-size: 24px;
   letter-spacing: 1px;
   text-shadow: 0px 1.28342px 3.20856px rgba(23, 23, 23, 0.4);
- 
+  font-weight: 700;
 }
+ 
 
 /* -----Campo-de-nome-do-cartão---------*/
+
+
+.name-card p{
+  font-size: 10px;
+}
+
+.name-card h2 {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* -----Campos de validade e ccv---------*/
+
+.card-data{
+  display: flex;
+justify-content: space-between;
+margin-top: 9px;
+}
+
+.card-data img{
+  width: 105px;
+}
+
 
 
 
