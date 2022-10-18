@@ -28,18 +28,7 @@ body{
 }
 
 
-
-
-
-
 /*---------FORM-CONTENT-------*/
-
-
-
-
-
-
-
 
 #my-form h1 {
   color: #959595;
@@ -66,7 +55,6 @@ body{
   flex-direction: column;
 }
 
-
 .data-content label{
   font-weight: 600;
     font-size: 1.2rem;
@@ -74,48 +62,51 @@ body{
     text-transform: uppercase;
     margin-bottom: 10px;
   }
-   
+  
+  
+  .data-content input {
+    width: 30.0rem;
+    height: 4.1rem;
+    background: #121214;
+    border: 1px solid #323238;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #959595;
+    padding: 5px;
+   }
 
- .data-content input {
-   width: 30.0rem;
-   height: 4.1rem;
-   background: #121214;
-   border: 1px solid #323238;
-   border-radius: 6px;
-   margin-bottom: 10px;
-   color: #959595;
-   padding: 5px;
-  }
+     .data-content-number input{
+      width: 7rem;
+        height: 4.1rem;
+     
+     }
 
 
 
-  /*===EXPEDIÇÃO-CVC======*/
 
+/*===EXPEDIÇÃO-CVC======*/
+.data-content-tow {
+  display: flex;
+  gap: 1.4rem;
+}
 
+.data-content-min label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
-        .data-content-tow {
-          display: flex;
-          gap: 14px;
-        }
-    
-        .data-content-min label {
-          font-weight: 600;
-          font-size: 1.2rem;
-          line-height: 1.5rem;
-          text-transform: uppercase;
-          margin-bottom: 10px;
-        }
-    
-        .data-content-min input {
-          width: 142.79px;
-          height: 41px;
-          background: #121214;
-          border: 1px solid #323238;
-          border-radius: 6px;
-          color: #959595;
-          padding: 5px;
-        }
-
+.data-content-min input {
+  width: 142.79px;
+  height: 41px;
+  background: #121214;
+  border: 1px solid #323238;
+  border-radius: 6px;
+  color: #959595;
+  padding: 5px;
+}
 
 #my-form button {
   align-items: center;
@@ -139,28 +130,6 @@ body{
   background: #0d9ac5;
 }
 
-  
-
-  
-
-   
-
-
-
-
-          
-
-
-
-    
-  
-  
-
-
-
-
-
-
 
 
 .data-content-tow{
@@ -179,9 +148,6 @@ body{
   width: 45.0rem;
 }
   
-  
-
-  
 .card-content {
   max-width: 393px;
   height: 245px;
@@ -190,18 +156,12 @@ body{
   border-radius: 6px;
   margin-top: 37px;
 }
-
-
-
-
 /*-----topo-do-cartão-------*/
 
 .top-card-content{
   display: flex;
   justify-content: space-between;
 }
-
-
 
 /* -----Campo-de-números-cartão---------*/
 
@@ -211,8 +171,8 @@ body{
   color: #E8E8E8;
   gap: 20px;
   margin-bottom: 14px;
-
 }
+
 .number-of-card p{
   font-size: 24px;
   letter-spacing: 1px;
@@ -244,6 +204,20 @@ margin-top: 9px;
 .card-data img{
   width: 105px;
 }
+
+
+
+
+.error-mensage {
+  color: rgb(240, 0, 0);
+  margin: 0 auto;
+  text-align: center;
+  padding: 1;
+  margin-top: 1.0rem;
+  font-weight: 700;
+}
+
+
 
 
 

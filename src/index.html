@@ -18,9 +18,19 @@
     <section class="form-container">
       <form id="my-form">
         <h1>Campinho<span>Cred</span> <img src="./assets/img/logo-aproximação.svg" alt=""></h1>
-        <div class="data-content">
+        <div class="data-content data-content-number">
+
           <label for="number">NÚMERO DO CARTÃO</label>
-          <input type='number' id='number-input'>
+          <div class="number-division">
+            <input type='text' id='number-input-one' maxlength="4">
+            <input type='text' id='number-input-two' maxlength="4">
+            <input type='text' id='number-input-three' maxlength="4">
+            <input type='text' id='number-input-4-four' maxlength="4">
+          </div>
+
+
+
+
         </div>
         <div class="data-content">
           <label for="name">NOME DO TITULAR</label>
@@ -29,14 +39,15 @@
         <div class="data-content-tow">
           <div class="data-content-min">
             <label for="number">EXPIRAÇÃO</label>
-            <input type='number' id='validity-input'>
+            <input type='text' id='validity-input' maxlength="4">
           </div>
           <div class="data-content-min">
             <label for="number">CVC</label>
-            <input type='number' id='cvc-input'>
+            <input type='text' id='cvc-input' maxlength="3">
           </div>
         </div>
-        <button type="submit">ADICIONAR CARTÃO</button>
+        <div class="msg"></div>
+        <button id="submit-button" type="submit">ADICIONAR CARTÃO</button>
       </form>
     </section>
     <!--==========SECTION-CARD=========-->
