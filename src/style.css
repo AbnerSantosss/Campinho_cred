@@ -56,6 +56,10 @@ body{
   display: flex;
   flex-direction: column;
 }
+#name-input{
+  text-transform: uppercase;
+}
+
 
 .data-content label{
   font-weight: 600;
@@ -194,6 +198,7 @@ body{
 .name-card  {
   font-size: 14px;
   margin-top: 4px;
+  
 }
 
 /* -----Campos de validade e ccv---------*/
