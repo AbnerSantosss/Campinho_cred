@@ -7,14 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="./script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
   <title>Campinho Card</title>
 </head>
 
 <body>
-  <main>
+  <main class="page">
     <section class="form-container">
       <form id="my-form">
-        <h1>CampinhoCred</h1>
+        <h1>Campinho<span>Cred</span> <img src="./assets/img/logo-aproximação.svg" alt=""></h1>
         <div class="data-content">
           <label for="number">NÚMERO DO CARTÃO</label>
           <input type='number' id='number'>
@@ -36,7 +39,48 @@
         <button type="submit">ADICIONAR CARTÃO</button>
       </form>
     </section>
-    <section class="card-img"></section>
+    <!--==========SECTION-CARD=========-->
+    <section class="card-section">
+      <div class="card-content">
+        <!-------topo-do-cartão--------->
+        <div class="top-card-content">
+          <!--------SGV------->
+          <div class="svg-img">
+            <!--------SVG-CARD-1------>
+            <img src="./assets/img/imagem-chip.svg" alt="">
+
+            <!--------SVG-CARD-2------>
+            <img src="./assets/img/logo-aproximação.svg" alt="">
+
+          </div>
+          <div class="logo-card">
+            <img src="./assets/img/bandeira-visa.svg" alt="">
+          </div>
+        </div>
+        <!-------campo-de-números-cartão--------->
+        <div class="number-of-card">
+          <p>1234</p>
+          <p>1234</p>
+          <p>1234</p>
+          <p>1234</p>
+        </div>
+        <div class="name-card">
+          <p>Nome do titular</p>
+          <h2>ABNER SANTOS</h2>
+        </div>
+        <div class="card-data">
+          <div class="card-data-content">
+            <p>Expiração</p>
+            <p>02/30</p>
+          </div>
+          <div class="card-data-content">
+            <p>CV</p>
+            <p>235</p>
+          </div>
+          <img src="./assets/img/campinho-img.png" alt="imagem do campinho digital">
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 
